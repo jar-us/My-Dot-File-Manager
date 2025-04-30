@@ -37,18 +37,22 @@
     "window.nativeTabs": true,
     "window.title": "${rootName}",
     "window.titleBarStyle": "custom",
-    "window.commandCenter": false,
     "window.zoomLevel": 1,
     "workbench.fontAliasing": "antialiased",
     "workbench.iconTheme": "vs-minimal",
     "workbench.list.smoothScrolling": true,
-    "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "workbench.tree.expandMode": "singleClick",
     "workbench.tree.indent": 20,
     "workbench.editor.closeOnFileDelete": true,
-    "workbench.layoutControl.enabled": false,
-    "workbench.colorCustomizations": {},
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#d1e6c9",
+        "activityBar.foreground": "#af5757",
+        "activityBar.activeBorder": "#647885",
+        "activityBar.badge.background": "#af5757",
+        "activityBar.badge.foreground": "#ffffff"
+    },
+    "workbench.activityBar.iconClickBehavior": "toggle",
     // git
     "git.autofetch": true,
     "scm.diffDecorationsGutterWidth": 5,
@@ -68,5 +72,8 @@
         "plaintext": false,
         "markdown": true,
         "scminput": false
-    }
+    },
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.experimental.share.enabled": true,
+    "workbench.sideBar.location": "right"
 }
