@@ -50,7 +50,14 @@
         "activityBar.foreground": "#af5757",
         "activityBar.activeBorder": "#647885",
         "activityBar.badge.background": "#af5757",
-        "activityBar.badge.foreground": "#ffffff"
+        "activityBar.badge.foreground": "#ffffff",
+        "statusBar.background": "#2C2C2C",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingBackground": "#cc6633",
+        "statusBar.debuggingForeground": "#ffffff",
+        "statusBar.noFolderBackground": "#68217a",
+        "statusBarItem.remoteBackground": "#16825d",
+        "statusBarItem.remoteForeground": "#ffffff"
     },
     "workbench.activityBar.iconClickBehavior": "toggle",
     // git
