@@ -14,6 +14,7 @@
     "editor.letterSpacing": 0.5,
     "editor.minimap.enabled": false,
     "editor.hover.delay": 1500,
+    "editor.lineHeight": 1,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -38,7 +39,11 @@
     "window.title": "${rootName}",
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 1,
+    "window.customTitleBarVisibility": "auto",
+    "workbench.layoutControl.type": "both",
     "window.titleSeparator": " — ",
+    "window.systemColorTheme": "dark",
+    
     "workbench.commandPalette.experimental.suggestCommands": true,
     "workbench.editor.enablePreviewFromQuickOpen": true,
     "workbench.fontAliasing": "antialiased",
@@ -90,7 +95,13 @@
         "quickInputList.focusBackground": "#2c2c2c",
         "quickInputList.focusForeground": "#f01414",
         "quickInputList.focusIconForeground": "#007acc",
-        "quickInputTitle.background": "#1e1e1e"
+        "quickInputTitle.background": "#1e1e1e",
+
+        "titleBar.activeBackground": "#2C2C2C",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#1f1f1f",
+        "titleBar.inactiveForeground": "#8e8e8e",
+        "titleBar.border": "#007acc",
     },
     "workbench.activityBar.iconClickBehavior": "toggle",
     // git
