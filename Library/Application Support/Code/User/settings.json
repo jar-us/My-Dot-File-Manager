@@ -38,6 +38,9 @@
     "window.title": "${rootName}",
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 1,
+    "window.titleSeparator": " — ",
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
     "workbench.fontAliasing": "antialiased",
     "workbench.iconTheme": "vs-minimal",
     "workbench.list.smoothScrolling": true,
@@ -73,7 +76,21 @@
         "panel.border": "#80808059",
         "panelTitle.activeBorder": "#007ACC",
         "panelTitle.activeForeground": "#ffffff",
-        "panelTitle.inactiveForeground": "#8e8e8e"
+        "panelTitle.inactiveForeground": "#8e8e8e",
+        "commandCenter.foreground": "#ffffff",
+        "commandCenter.background": "#1e1e1e",
+        "commandCenter.border": "#007acc",
+        "commandCenter.activeBackground": "#2c2c2c",
+        "commandCenter.activeForeground": "#ffffff",
+        "commandCenter.inactiveForeground": "#969696",
+        "commandCenter.inactiveBackground": "#2d2d2d",
+
+        "quickInput.background": "#1e1e1e",
+        "quickInput.foreground": "#ffffff",
+        "quickInputList.focusBackground": "#2c2c2c",
+        "quickInputList.focusForeground": "#f01414",
+        "quickInputList.focusIconForeground": "#007acc",
+        "quickInputTitle.background": "#1e1e1e"
     },
     "workbench.activityBar.iconClickBehavior": "toggle",
     // git
@@ -97,7 +114,6 @@
         "scminput": false
     },
     "workbench.editor.editorActionsLocation": "titleBar",
-    "workbench.experimental.share.enabled": true,
     "workbench.sideBar.location": "right",
     "debug.enableStatusBarColor": true
 }
