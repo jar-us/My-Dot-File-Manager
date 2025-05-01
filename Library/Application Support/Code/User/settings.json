@@ -1,5 +1,8 @@
 {
-    // editor
+    /************************************************
+     *           EDITOR APPEARANCE & BEHAVIOR       *
+     ************************************************/
+    // Font settings, cursor behavior, visual guides, etc.
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
     "editor.fontWeight": "bold",
@@ -15,24 +18,40 @@
     "editor.minimap.enabled": false,
     "editor.hover.delay": 1500,
     "editor.lineHeight": 1.5,
+    "editor.renderLineHighlight": "gutter",
+    "editor.smoothScrolling": true,
+    /************************************************
+     *           TEXT FORMATTING & DISPLAY          *
+     ************************************************/
     "editor.tokenColorCustomizations": {
+        "comments": "#9c6912",
+        "keywords": "#010101",
+        "strings": "#010101",
+        "functions": "#010101",
+        "variables": "#010101",
+        "numbers": "#010101",
+        "types": "#010101",
+
+
         "textMateRules": [
             {
-                "scope": [
-                    "comment",
-                    "keyword",
-                    "variable.language"
-                ],
+                // "scope": [
+                //     "comment",
+                //     "keyword",
+                //     "variable.language"
+                // ],
                 "settings": {
                     "foreground": "#010415"
-                }
+                },
             }
         ]
     },
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor", // always open markdown files in preview mode
     },
-    // window
+    /************************************************
+     *           WINDOW & WORKBENCH LAYOUT          *
+     ************************************************/
     "window.autoDetectColorScheme": true,
     "window.dialogStyle": "custom",
     "window.nativeTabs": true,
@@ -40,10 +59,12 @@
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 1,
     "window.customTitleBarVisibility": "auto",
-    "workbench.layoutControl.type": "both",
     "window.titleSeparator": " — ",
     "window.systemColorTheme": "dark",
-    
+    "workbench.layoutControl.type": "both",
+    /************************************************
+     *           SIDEBAR & PANEL CONFIGURATION      *
+     ************************************************/
     "workbench.commandPalette.experimental.suggestCommands": true,
     "workbench.editor.enablePreviewFromQuickOpen": true,
     "workbench.fontAliasing": "antialiased",
@@ -54,23 +75,29 @@
     "workbench.panel.defaultLocation": "bottom",
     "workbench.panel.opensMaximized": "preserve",
     "workbench.panel.showLabels": true,
-    "workbench.tree.indent": 20,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
+    /************************************************
+     *           COLOR CUSTOMIZATIONS               *
+     ************************************************/
     "workbench.colorCustomizations": {
         "activityBar.background": "#d1e6c9",
         "activityBar.foreground": "#af5757",
         "activityBar.activeBorder": "#647885",
         "activityBar.badge.background": "#af5757",
         "activityBar.badge.foreground": "#ffffff",
-        "statusBar.background": "#2C2C2C",
-        "statusBar.foreground": "#ffffff",
+        "statusBar.foreground": "#250101",
+        "statusBar.background": "#42523c",
         "statusBar.debuggingBackground": "#cc6633",
         "statusBar.debuggingForeground": "#ffffff",
         "statusBar.noFolderBackground": "#68217a",
         "statusBarItem.remoteBackground": "#16825d",
         "statusBarItem.remoteForeground": "#ffffff",
-        "sideBar.background": "#c2cdc5",
+        "sideBar.background": "#9aa69d",
         "sideBar.foreground": "#1a1717",
         "sideBar.border": "#cccccc",
         "sideBarTitle.foreground": "#272525",
@@ -89,31 +116,35 @@
         "commandCenter.activeForeground": "#ffffff",
         "commandCenter.inactiveForeground": "#969696",
         "commandCenter.inactiveBackground": "#2d2d2d",
-
         "quickInput.background": "#1e1e1e",
         "quickInput.foreground": "#ffffff",
         "quickInputList.focusBackground": "#2c2c2c",
         "quickInputList.focusForeground": "#f01414",
         "quickInputList.focusIconForeground": "#007acc",
         "quickInputTitle.background": "#1e1e1e",
-
         "titleBar.activeBackground": "#2C2C2C",
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveBackground": "#1f1f1f",
         "titleBar.inactiveForeground": "#8e8e8e",
         "titleBar.border": "#007acc",
     },
-    "workbench.activityBar.iconClickBehavior": "toggle",
-    // git
+    /************************************************
+     *           GIT & SOURCE CONTROL               *
+     ************************************************/
     "git.autofetch": true,
     "scm.diffDecorationsGutterWidth": 5,
-    // terminal
+    /************************************************
+     *           TERMINAL CONFIGURATION             *
+     ************************************************/
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.fontWeight": "bold",
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.fontSize": 10,
+    /************************************************
+     *           EXTENSIONS & INTEGRATIONS          *
+     ************************************************/
     "diffEditor.hideUnchangedRegions.enabled": true,
     "redhat.telemetry.enabled": true,
     "github.copilot.nextEditSuggestions.enabled": false,
@@ -124,8 +155,5 @@
         "markdown": true,
         "scminput": false
     },
-    "workbench.editor.editorActionsLocation": "titleBar",
-    "workbench.sideBar.location": "right",
     "debug.enableStatusBarColor": true,
-    "workbench.activityBar.location": "hidden"
 }

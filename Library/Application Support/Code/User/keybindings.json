@@ -66,62 +66,15 @@
         "command": "workbench.action.togglePanel",
     },
     {
+        // Maximize or minimize the bottom panel.
+        "key": "cmd+alt+j",
+        "command": "workbench.action.toggleMaximizedPanel",
+    },
+    {
         // Close the bottom panel and focus on the editor.
         // If the bottom panel is already closed, focus on the editor.
         "key": "cmd+shift+j",
         "command": "workbench.action.closePanel",
     },
-    {
-        // Maximize or minimize the bottom panel.
-        "key": "cmd+alt+j",
-        "command": "workbench.action.toggleMaximizedPanel",
-    },
-    // {
-    //     "key": "cmd+j",
-    //     "command": "workbench.action.togglePanel", // Toggle bottom panel
-    // },
-    // {
-    //     "key": "cmd+alt+j",
-    //     "command": "workbench.action.toggleMaximizedPanel", // Maximize/minimize panel
-    // },
-    // {
-    //     "key": "cmd+shift+j",
-    //     "command": "workbench.action.closePanel", // Close bottom panel
-    // },
-    // {
-    //     "key": "cmd+shift+e",
-    //     "command": "workbench.view.explorer", // Explorer
-    // },
-    // {
-    //     "key": "cmd+shift+f",
-    //     "command": "workbench.view.search", // Search
-    // },
-    // {
-    //     "key": "cmd+shift+g",
-    //     "command": "workbench.view.scm", // Source Control
-    // },
-    // {
-    //     "key": "cmd+shift+d",
-    //     "command": "workbench.view.debug", // Debug
-    // },
-    // {
-    //     "key": "cmd+b",
-    //     "command": "workbench.action.toggleSidebarVisibility", // Primary Sidebar (Explorer)
-    // },
-    // {
-    //     "key": "cmd+shift+b",
-    //     "command": "workbench.action.toggleAuxiliaryBar", // Toggle secondary sidebar
-    // },
-    // {
-    //     "key": "cmd+k cmd+b",
-    //     "command": "workbench.action.toggleActivityBarVisibility" // Toggle activity bar
-    // },
-    // {
-    //     "key": "cmd+0",
-    //     "command": "workbench.action.focusSideBar" // Focus primary sidebar
-    // },
-    // {
-    //     "key": "cmd+9",
-    //     "command": "workbench.action.focusAuxiliaryBar" // Focus secondary sidebar
-    // }
+    // ** Editor **
 ]
