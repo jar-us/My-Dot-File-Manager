@@ -23,125 +23,94 @@
     /************************************************
      *           TEXT FORMATTING & DISPLAY          *
      ************************************************/
-    // "editor.tokenColorCustomizations": {
-    //     // "comments": "#9c6912",
-    //     // "keywords": "#010101",
-    //     // "strings": "#010101",
-    //     // "functions": "#010101",
-    //     // "variables": "#010101",
-    //     // "numbers": "#010101",
-    //     // "types": "#010101",
-
-
-    //     "textMateRules": [
-    //         {
-    //             "scope": [
-    //                 "comment",
-    //                 "keyword",
-    //                 // "variable.language"
-    //             ],
-    //             "settings": {
-    //                 "foreground": "#18150d"
-    //             },
-    //         }
-    //     ]
-    // },
     "editor.tokenColorCustomizations": {
-    "textMateRules": [
-        {
-            "scope": [
-                "comment",
-                "comment.block.documentation",
-                "comment.block.javadoc",
-                "comment.line.double-slash",
-                "comment.block",
-                "string.quoted.docstring"
-            ],
-            "settings": {
-                "foreground": "#2E7D32" // green color for comments
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block.documentation",
+                    "comment.block.javadoc",
+                    "comment.line.double-slash",
+                    "comment.block",
+                    "string.quoted.docstring"
+                ],
+                "settings": {
+                    "foreground": "#2E7D32" // green color for comments
+                }
+            },
+            {
+                "scope": [
+                    // Basic elements
+                    "keyword",
+                    "string",
+                    "variable",
+                    "constant",
+                    // Package and imports
+                    "storage.modifier.package",
+                    "storage.modifier.import",
+                    "entity.name.namespace",
+                    "entity.name.class",
+                    "entity.name.type.class",
+                    "entity.name.type.class.java",
+                    // Annotations
+                    "storage.type.annotation",
+                    "punctuation.definition.annotation",
+                    "meta.annotation",
+                    "meta.annotation.parameters",
+                    "meta.annotation.parameters.java",
+                    // Variables and declarations
+                    "variable.other",
+                    "variable.language",
+                    "variable.parameter",
+                    "variable.other.local",
+                    "variable.other.object",
+                    "variable.other.readwrite",
+                    "variable.other.java",
+                    // Keywords and types
+                    "keyword.control",
+                    "keyword.other",
+                    "storage.type.primitive",
+                    "storage.type.java",
+                    "storage.modifier",
+                    "storage.type",
+                    "storage.type.class",
+                    "storage.type.class.java",
+                    // Function related
+                    "entity.name.function",
+                    "entity.name.type",
+                    "entity.name.class",
+                    "entity.name.method",
+                    "entity.name.method.java",
+                    "meta.function-call",
+                    "meta.function-call.arguments",
+                    "meta.function-call.parameters",
+                    // Language constants
+                    "constant.language.null",
+                    "constant.language.boolean",
+                    "constant.language.string",
+                    "constant.language.number",
+                    "constant.language.java",
+                    "constant.language.character",
+                    "constant.language.character.java",
+                    // Support types
+                    "support.type",
+                    "support.class",
+                    "support.class.java",
+                    "support.function",
+                    "support.function.java",
+                    "support.variable",
+                    "support.variable.java",
+                    "support.variable.property",
+                    "support.variable.property.java",
+                    // Logging variables
+                    "variable.other.object"
+                ],
+                "settings": {
+                    "foreground": "#000000" // black color for everything else
+                }
             }
-        },
-        {
-            "scope": [
-                // Basic elements
-                "keyword",
-                "string",
-                "variable",
-                "constant",
-                
-                // Package and imports
-                "storage.modifier.package",
-                "storage.modifier.import",
-                "entity.name.namespace",
-                "entity.name.class",
-                "entity.name.type.class",
-                "entity.name.type.class.java",
-                
-                // Annotations
-                "storage.type.annotation",
-                "punctuation.definition.annotation",
-                "meta.annotation",
-                "meta.annotation.parameters",
-                "meta.annotation.parameters.java",
-                
-                // Variables and declarations
-                "variable.other",
-                "variable.language",
-                "variable.parameter",
-                "variable.other.local",
-                "variable.other.object",
-                "variable.other.readwrite",
-                "variable.other.java",
-                
-                // Keywords and types
-                "keyword.control",
-                "keyword.other",
-                "storage.type.primitive",
-                "storage.type.java",
-                "storage.modifier",
-                "storage.type",
-                "storage.type.class",
-                "storage.type.class.java",
-                
-                // Function related
-                "entity.name.function",
-                "entity.name.type",
-                "entity.name.class",
-                "entity.name.method",
-                "entity.name.method.java",
-                "meta.function-call",
-                "meta.function-call.arguments",
-                "meta.function-call.parameters",
-
-                // Language constants
-                "constant.language.null",
-                "constant.language.boolean",
-                "constant.language.string",
-                "constant.language.number",
-                "constant.language.java",
-                "constant.language.character",
-                "constant.language.character.java",
-                
-                // Support types
-                "support.type",
-                "support.class",
-                "support.class.java",
-                "support.function",
-                "support.function.java",
-                "support.variable",
-                "support.variable.java",
-                "support.variable.property",
-                "support.variable.property.java",
-                
-                // Logging variables
-                "variable.other.object"
-            ],
-            "settings": {
-                "foreground": "#000000" // black color for everything else
-            }
-        }
-    ]
-},
+        ]
+    },
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor", // always open markdown files in preview mode
     },
@@ -223,6 +192,10 @@
         "titleBar.inactiveBackground": "#1f1f1f",
         "titleBar.inactiveForeground": "#8e8e8e",
         "titleBar.border": "#007acc",
+        "window.activeBorder": "#d31020",
+        "window.inactiveBorder": "#35815e",
+        "focusBorder" : "#007acc",
+        
     },
     /************************************************
      *           GIT & SOURCE CONTROL               *
