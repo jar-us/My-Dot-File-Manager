@@ -163,6 +163,9 @@
         "statusBar.border": "#ec0721",
         "statusBarItem.remoteBackground": "#16825d",
         "statusBarItem.remoteForeground": "#ffffff",
+        /***************************************************************
+         *           SIDEBAR APPEARANCE                                *
+         **************************************************************/
         "sideBar.background": "#9aa69d",
         "sideBar.foreground": "#1a1717",
         "sideBar.border": "#f50606",
@@ -170,13 +173,16 @@
         "sideBarSectionHeader.background": "#c16b6b",
         "sideBarSectionHeader.foreground": "#333333",
         "sideBarSectionHeader.border": "#ac0f0f",
+        /***************************************************************
+         *           PANEL APPEARANCE                                  *
+         **************************************************************/
         "panel.background": "#1e1e1e",
         "panel.border": "#ac0f0f",
         "panelTitle.activeBorder": "#007ACC",
         "panelTitle.activeForeground": "#ffffff",
         "panelTitle.inactiveForeground": "#8e8e8e",
         /***************************************************************
-         *           COMMAND CENTER APPEARANCE CUSTOMIZATION - START  *
+         *           COMMAND CENTER APPEARANCE                         *
          **************************************************************/
         "commandCenter.foreground": "#ffffff",
         "commandCenter.background": "#1e1e1e",
@@ -199,6 +205,14 @@
         "titleBar.inactiveForeground": "#8e8e8e",
         "titleBar.border": "#f70606",
         "editorGroup.border": "#1dd41d",
+        /***************************************************************
+         *           EDITOR FILES TABS                                 *
+         **************************************************************/
+        "tab.activeBackground": "#f0adad",
+        "tab.activeForeground": "#000000",
+        "tab.inactiveBackground": "#e5e3e3",
+        "tab.inactiveForeground": "#000000",
+        "tab.border": "#010000",
     },
     /************************************************
      *           GIT & SOURCE CONTROL               *
@@ -229,4 +243,14 @@
     },
     "debug.enableStatusBarColor": true,
     "workbench.activityBar.location": "hidden",
+    /***************************************************************
+     *           EDITOR TABS                                       *
+     ***************************************************************/
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.labelFormat": "short",
+    //change the tab color based on the file type
+    "window.density.editorTabHeight": "compact",
+    "workbench.editor.wrapTabs": false,
+    "workbench.editor.highlightModifiedTabs": true
 }
