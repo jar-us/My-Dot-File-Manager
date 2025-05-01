@@ -103,4 +103,19 @@
         "key": "cmd+p",
         "command": "workbench.action.quickOpen",
     },
+    {
+        // Go Forward in editor history
+        "key": "cmd+[",
+        "command": "workbench.action.navigateBack",
+    },
+    {
+        // Go Back in editor history
+        "key": "cmd+]",
+        "command": "workbench.action.navigateForward",
+    },{
+        // Go to definition
+        "key": "cmd+enter",
+        "command": "editor.action.goToDeclaration"
+    }
+
 ]
