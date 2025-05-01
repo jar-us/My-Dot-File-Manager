@@ -175,6 +175,9 @@
         "panelTitle.activeBorder": "#007ACC",
         "panelTitle.activeForeground": "#ffffff",
         "panelTitle.inactiveForeground": "#8e8e8e",
+        /***************************************************************
+         *           COMMAND CENTER APPEARANCE CUSTOMIZATION - START  *
+         **************************************************************/
         "commandCenter.foreground": "#ffffff",
         "commandCenter.background": "#1e1e1e",
         "commandCenter.border": "#fb0606",
@@ -182,17 +185,20 @@
         "commandCenter.activeForeground": "#ffffff",
         "commandCenter.inactiveForeground": "#969696",
         "commandCenter.inactiveBackground": "#2d2d2d",
-        "quickInput.background": "#1e1e1e",
+        "quickInput.background": "#605e5e",
         "quickInput.foreground": "#ffffff",
-        "quickInputList.focusBackground": "#2c2c2c",
-        "quickInputList.focusForeground": "#f01414",
-        "quickInputList.focusIconForeground": "#007acc",
-        "quickInputTitle.background": "#1e1e1e",
+        "quickInputList.focusBackground": "#d57777",
+        "quickInputList.focusForeground": "#3a2828",
+        "quickInputList.focusIconForeground": "#ffffff",
+        /***************************************************************
+         *           COMMAND CENTER APPEARANCE CUSTOMIZATION - END  *
+         **************************************************************/
         "titleBar.activeBackground": "#0406038c",
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveBackground": "#1f1f1f",
         "titleBar.inactiveForeground": "#8e8e8e",
         "titleBar.border": "#f70606",
+        "editorGroup.border": "#1dd41d",
     },
     /************************************************
      *           GIT & SOURCE CONTROL               *
