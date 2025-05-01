@@ -14,7 +14,7 @@
     "editor.letterSpacing": 0.5,
     "editor.minimap.enabled": false,
     "editor.hover.delay": 1500,
-    "editor.lineHeight": 1,
+    "editor.lineHeight": 1.5,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -126,5 +126,6 @@
     },
     "workbench.editor.editorActionsLocation": "titleBar",
     "workbench.sideBar.location": "right",
-    "debug.enableStatusBarColor": true
+    "debug.enableStatusBarColor": true,
+    "workbench.activityBar.location": "hidden"
 }

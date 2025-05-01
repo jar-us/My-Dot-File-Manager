@@ -1,12 +1,127 @@
 // Place your key bindings in this file to override the defaults
 [
+    // ****************************************************************
+    // ** Visual Studio Code Key Bindings **
+    // ****************************************************************
+    // These key bindings are for macOS.
+    // ****************************************************************
+    // ** Sidebar/Primary Sidebar **
+    // Toggle the primary sidebar (Explorer)
     {
-        "key": "cmd+1",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "!editorTextFocus && !inputFocus"
+        // Open Explorer and focus on it, if it is not already open. 
+        // If it is open, focus on the Explorer view.
+        "key": "cmd+shift+e",
+        "command": "workbench.view.explorer",
     },
     {
-        "key": "cmd+2",
-        "command": "workbench.view.explorer"
-    }
+        // Open Search and focus on it, if it is not already open.
+        // If it is open, focus on the Search view.
+        "key": "cmd+shift+f",
+        "command": "workbench.view.search", // Search
+    },
+    {
+        // Open Source Control and focus on it, if it is not already open.
+        // If it is open, focus on the Source Control view.
+        "key": "cmd+shift+g",
+        "command": "workbench.view.scm", // Source Control
+    },
+    {
+        // Open Debug and focus on it, if it is not already open.
+        // If it is open, focus on the Debug view.
+        "key": "cmd+shift+d",
+        "command": "workbench.view.debug", // Debug
+    },
+    {
+        // Close the primary sidebar (Explorer) and focus on the editor.
+        // If the primary sidebar is already closed, focus on the editor.
+        "key": "cmd+e",
+        "command": "workbench.action.toggleSidebarVisibility",
+    },
+    // ** Secondary Sidebar/Auxiliary Bar **
+    // Toggle the secondary sidebar (Auxiliary Bar)
+    {
+        // Open the secondary or auxiliary sidebar and focus on it, if it is not already open.
+        // If it is open, focus on the secondary sidebar view.
+        "key": "cmd+shift+b",
+        "command": "workbench.action.focusAuxiliaryBar",
+    },
+    {
+        // Close the secondary sidebar and focus on the editor.
+        // If the secondary sidebar is already closed, focus on the editor.
+        "key": "cmd+b",
+        "command": "workbench.action.closeAuxiliaryBar",
+    },
+    {
+        // Toggle the activity bar (the left sidebar with icons).
+        // If the activity bar is already open, close it.
+        "key": "cmd+k cmd+b",
+        "command": "workbench.action.toggleActivityBarVisibility",
+    },
+    // ** Bottom Panel **
+    // Toggle the bottom panel (terminal, output, problems, debug console)
+    {
+        // Open the bottom panel and focus on it, if it is not already open.
+        // If it is open, focus on the bottom panel view.
+        "key": "cmd+j",
+        "command": "workbench.action.togglePanel",
+    },
+    {
+        // Close the bottom panel and focus on the editor.
+        // If the bottom panel is already closed, focus on the editor.
+        "key": "cmd+shift+j",
+        "command": "workbench.action.closePanel",
+    },
+    {
+        // Maximize or minimize the bottom panel.
+        "key": "cmd+alt+j",
+        "command": "workbench.action.toggleMaximizedPanel",
+    },
+    // {
+    //     "key": "cmd+j",
+    //     "command": "workbench.action.togglePanel", // Toggle bottom panel
+    // },
+    // {
+    //     "key": "cmd+alt+j",
+    //     "command": "workbench.action.toggleMaximizedPanel", // Maximize/minimize panel
+    // },
+    // {
+    //     "key": "cmd+shift+j",
+    //     "command": "workbench.action.closePanel", // Close bottom panel
+    // },
+    // {
+    //     "key": "cmd+shift+e",
+    //     "command": "workbench.view.explorer", // Explorer
+    // },
+    // {
+    //     "key": "cmd+shift+f",
+    //     "command": "workbench.view.search", // Search
+    // },
+    // {
+    //     "key": "cmd+shift+g",
+    //     "command": "workbench.view.scm", // Source Control
+    // },
+    // {
+    //     "key": "cmd+shift+d",
+    //     "command": "workbench.view.debug", // Debug
+    // },
+    // {
+    //     "key": "cmd+b",
+    //     "command": "workbench.action.toggleSidebarVisibility", // Primary Sidebar (Explorer)
+    // },
+    // {
+    //     "key": "cmd+shift+b",
+    //     "command": "workbench.action.toggleAuxiliaryBar", // Toggle secondary sidebar
+    // },
+    // {
+    //     "key": "cmd+k cmd+b",
+    //     "command": "workbench.action.toggleActivityBarVisibility" // Toggle activity bar
+    // },
+    // {
+    //     "key": "cmd+0",
+    //     "command": "workbench.action.focusSideBar" // Focus primary sidebar
+    // },
+    // {
+    //     "key": "cmd+9",
+    //     "command": "workbench.action.focusAuxiliaryBar" // Focus secondary sidebar
+    // }
 ]
