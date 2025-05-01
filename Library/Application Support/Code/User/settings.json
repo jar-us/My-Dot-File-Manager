@@ -222,4 +222,5 @@
         "scminput": false
     },
     "debug.enableStatusBarColor": true,
+    "workbench.activityBar.location": "hidden",
 }

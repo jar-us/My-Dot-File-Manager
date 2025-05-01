@@ -52,6 +52,21 @@
         "command": "workbench.action.closeAuxiliaryBar",
     },
     {
+        // Focus on the secondary sidebar (Auxiliary Bar) if it is opened.
+        // If it is not opened, open it and focus on it.
+        // If it is already open, focus on the secondary sidebar view.
+        "key": "cmd+shift+\\",
+        "command": "workbench.action.focusAuxiliaryBar",
+    },
+    {
+        // Move back focus to the editor from the secondary sidebar (Auxiliary Bar).
+        // If the secondary sidebar is open and focus is there then move to editor without closing it.
+        "key": "cmd+\\",
+        "command": "workbench.action.focusActiveEditorGroup",
+
+
+    },
+    {
         // Toggle the activity bar (the left sidebar with icons).
         // If the activity bar is already open, close it.
         "key": "cmd+k cmd+b",
@@ -76,5 +91,16 @@
         "key": "cmd+shift+j",
         "command": "workbench.action.closePanel",
     },
-    // ** Editor **
+    // ** Command Palette **
+    // Open the command palette (for running commands)
+    {
+        // Open the command palette and focus on it.
+        "key": "cmd+shift+p",
+        "command": "workbench.action.showCommands",
+    },
+    {
+        // Open the command palette and focus on it.
+        "key": "cmd+p",
+        "command": "workbench.action.quickOpen",
+    },
 ]
