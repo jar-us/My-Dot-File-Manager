@@ -252,5 +252,6 @@
     //change the tab color based on the file type
     "window.density.editorTabHeight": "compact",
     "workbench.editor.wrapTabs": false,
-    "workbench.editor.highlightModifiedTabs": true
+    "workbench.editor.highlightModifiedTabs": true,
+    "update.mode": "none"
 }
